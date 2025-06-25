@@ -37,7 +37,7 @@
     }, 10); // Tick every 10 ms
     ```
 
-3. **Update feature states**
+3. **Update feature states**: 
     Call `FeatureManager::Instance().UpdateAll()` whenever you want to check for toggles and start/stop threads as needed. This is typically done in your application's main loop.
 
     ```cpp
@@ -47,7 +47,7 @@
     }
     ```
 
-4. **Shutdown**
+4. **Shutdown**: 
     Before exiting your application, stop all managed threads:
     ```cpp
     FeatureManager::Instance().StopAllThreads();
