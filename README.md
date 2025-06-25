@@ -7,7 +7,7 @@
 - Register features as either single-threaded or multithreaded.
 - Toggle features on/off using `std::atomic<bool>`.
 - Automatically handles thread management for features that require periodic work.
-- [MIT License](LICENSE.txt)
+- [MIT License](LICENSE)
 
 ## Usage
 
@@ -77,7 +77,7 @@
 
 ## License
 
-ThreadedFeatures is licensed under the [MIT License](LICENSE.txt).
+ThreadedFeatures is licensed under the [MIT License](LICENSE).
 
 ---
 
